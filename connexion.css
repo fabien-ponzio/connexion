@@ -1,0 +1,234 @@
+
+.doubleb, header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+header{
+justify-content: space-between;
+background-color: #ffeaa7;
+}
+
+.footer{
+    background-color: #ffeaa7;
+    text-align: center;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box1{
+    border: solid 7px;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-color:#ffeaa7 ;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2vw;
+}
+.box1:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+.box1 input{
+    background-color: #ffeaa7;
+}
+.box2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.box3{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.doubleb img{
+    width: 75px;
+}
+
+h2 {
+    text-align: center;
+}
+.box5{
+    border: solid #ffeaa7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+.box5:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+.box5 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.box5 label{
+    margin: 15px;
+    width: 275px;
+}
+
+.box5 input{
+    background-color: #ffeaa7 ;
+}
+
+.box6{
+    border: solid #ffeaa7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: auto;
+    background-color: white;
+}
+.box6 input{
+    background-color: #ffeaa7;
+}
+.box6 select{
+    background-color: #ffeaa7
+}
+.box6:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+
+.sexe{
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.reste1{
+display: flex;
+flex-direction: column;
+padding:10px
+}
+
+.reste2{
+padding-top: 10%;
+text-align: center;
+}
+
+.posit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box7{
+    border: solid #ffeaa7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.box7 label{
+    padding-bottom: 7px;
+}
+.box7:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.textarea{
+    background-color: #ffeaa7;
+}
+.posit2{
+    display: flex;
+    justify-content: center;
+}
+.go{
+border-radius: 4px;
+color: #ffeaa7;
+background-color: white;
+margin-bottom: 20px;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+.go:hover{
+    background-color:#ffeaa7 ;
+    color: white;
+    transition: 900ms;
+}
+.go:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+
+.motdepasse{
+    border: solid 7px;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-color:#ffeaa7 ;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2vw;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.motdepasse input{
+    background-color: #ffeaa7 ;
+}
+.motdepasse:hover{
+    box-shadow: grey 10px 10px 5px;
+    transition: 900ms;
+}
+
+.go2{
+    margin-top: 20px;
+}
+
+.go2 button{
+    background-color: #ffeaa7;
+}
+
+
+

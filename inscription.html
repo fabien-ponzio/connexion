@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="connexion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="doubleb">
+        <img src="https://images.emojiterra.com/google/android-nougat/512px/1f6e1.png" alt="">
+        <h1>Double Bouclier</h1>
+        <img src="https://images.emojiterra.com/google/android-nougat/512px/1f6e1.png" alt="">
+        </div>
+        <p> <a href="">Créer mon compte</a></p>
+
+    </header>
+
+    <main>
+    <article>
+    <section class="posit">
+        <section class="box5">
+            <h2>Vos identifiants</h2>
+        <form method="post" action="">
+            <label for="login ">Login</label>
+            <input type="email" id="login" name="Login" placeholder="Adresse mail..." required>
+
+            <label for="mdp">Mot de Passe</label>
+            <input type="password" name="mdp" placeholder="Mot de passe..." required>
+
+            <label for="mdp">Confirmation du mot de passe</label>
+            <input type="password" name="mdp" placeholder="Mot de passe..." required>
+
+            <label for="dob">Date de naissance</label>
+            <input type="date" name="dob" value="AAAA/MM/JJ" required>
+
+            <label for="prenom">Prénom</label>
+            <input type="text" name=prenom placeholder="Votre prénom" required>
+
+            <label for="nom">Nom</label>
+            <input type="text" name=nom placeholder="Votre nom">
+        </section>
+
+        <section class="box6">
+            <h2>A propos de vous</h2>
+            <p> Quel est votre sexe ?</p>
+            <section class="sexe">
+            <label class="sexe" for="homme">Homme</label>
+            <input type="radio" name="usergender" required> 
+            <label class="sexe" for="femme">Femme</label>
+            <input type="radio" name="usergender" required> 
+            </section>
+            
+
+           <label class="reste1" for="Nvetude">Votre Niveau d'études</label>
+           <select class="reste1" name="Nvetude" id="Nvetude" required>
+            <option>-- Choisir --</option>
+            <option>Bac</option>
+            <option>Bac+2</option>
+            <option>Bac+3</option>
+            <option>Bac+5</option>
+            <option>Bac+7</option>
+            </select>
+
+
+
+            <section class="reste2">
+            <label for="telephone">Votre numéro de téléphone :</label>
+            <input type="tel" name="telephone" id="téléphone">
+            </section>
+
+        </section>   
+    </section>
+
+    <section class="posit2">
+        <section class="box7">
+            <h2>
+                Dites-nous en plus !
+            </h2>
+            <section class="presentation">
+           <p>
+               Présentez-vous en quelques lignes : 
+           </p>
+
+           <label for="presentation">A vous!</label>
+           <textarea class="textarea"></textarea>
+            </section>
+
+           <p>Hobbies</p>
+           <label for="Sport">Sport</label>
+           <input type="checkbox" id=sport>
+
+           <label for="Cuisine">Cuisine</label>
+           <input type="checkbox" id="cuisine">
+
+           <label for="Lecture">Lecture</label>
+           <input type="checkbox" id="lecture">
+
+           <label for="Jeux-vidéo">Jeux-vidéo</label>
+           <input type="checkbox" id="Jeux-vidéo">
+
+           <label for="Cinéma">Cinéma</label>
+           <input type="checkbox" id="Cinéma">
+
+           <label for="Mode">Mode</label>
+           <input type="checkbox" id="Mode">
+        </section>
+    </section>
+
+            <section class="bouton">
+ 
+           <a href="Connexion.html"> <button class="go"><h1>J'ai fini!</h1></button></a>
+
+            </section>
+        </form>
+    </article>
+    </main>
+    <footer class="footer">
+        <p>
+            Auteur : Fabien Ponzio <a href="mailto:fabien.ponzio@laplateforme.io">fabien.ponzio@laplateforme.io</a>
+        </p>
+    </footer>
+</body>
+</html>
